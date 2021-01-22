@@ -1,0 +1,97 @@
+body {
+    background: #18191A;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.navi{
+    background: #242526;
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid gray;
+}
+.footer{
+    background: #242526;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-top: gray;
+}
+.logo{
+    width: 50%;
+    font-size: 30px;
+    color: gold;
+    text-decoration: inherit;
+}
+.logotext{
+    width: 30%;
+    font-size: 50px;
+    color: gold;
+    text-decoration: inherit;
+}
+.page{
+    display: flex;
+    text-decoration: inherit;
+    justify-content: space-around;
+    width: 30%;
+}
+.facebook{
+    text-decoration: inherit;
+    font-size: 20px;
+}
+.address {
+    text-decoration: inherit;
+}
+.menubutton{
+    text-decoration: inherit;
+}
+.btn-group {
+    display: none;
+    color: gold;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#footer {
+    text-align: center;
+}
+.dropdown-menu{
+    background-color: #242526;
+}
+.dropdown-item{
+    color: #F0F0F0;
+}
+
+.socialNetwork{
+    display: inline;
+    justify-content: center;
+}
+@media (max-width : 450px){
+    .divcontainer{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .facebook{
+        display: none;
+    }
+    .logotext {
+        font-size: 20px;
+    }
+    .botton{
+        margin: 0 auto;
+    }
+    .btn-group{
+    display: block;
+}
+    .page{
+        display: none;
+    }
+}
